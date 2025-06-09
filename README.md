@@ -10,12 +10,19 @@ If you're in urgent need of the code and data, please don't hesitate to reach ou
 
 **Prisma Shuangtai & Prisma Chongming**: [百度网盘，提取码 quja](https://pan.baidu.com/s/1VPapO_ZT_QfrfTcWT6mv7Q?pwd=quja) or [Google Drive](https://drive.google.com/drive/folders/1macw4UJ2ADywohav9AqSxEG-MwiwupNW?usp=sharing)
 
-## Step 2: train and test
+## Step 2: compiling cuda files
+```
+cd lib
+. install.sh ## please wait for about 5 minutes
+```
+you can also refer to [ESCNet](https://github.com/Bobholamovic/ESCNet) for the compiling process.
+
+## Step 3: train and test
 ```
 python main.py --cuda 0
 ```
 
-## Step 3: record classification result
+## Step 4: record classification result
 
 ## Citation
 If you find this work interesting in your research, please kindly cite:
