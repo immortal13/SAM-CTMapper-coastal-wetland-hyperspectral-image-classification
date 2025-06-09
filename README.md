@@ -1,9 +1,6 @@
 # SAM-CTMapper-coastal-wetland-hyperspectral-image-classification
 Demo code of "SAM-CTMapper: Utilizing segment anything model and scale-aware mixed CNN-Transformer facilitates coastal wetland hyperspectral image classification"
 
-It might take me a few months to get the relevant code organized. 
-
-If you're in urgent need of the code and data, please don't hesitate to reach out to immortal@whu.edu.com, and I'll be happy to provide you with the code in its current state ~ 🫡🫡
 
 ## Step 1: prepare dataset
 **GF-5 Yancheng & ZY1-02D Huanghekou**: https://zenodo.org/records/8105220
@@ -19,10 +16,12 @@ you can also refer to [ESCNet](https://github.com/Bobholamovic/ESCNet) for the c
 
 ## Step 3: train and test
 ```
-python main.py --cuda 0
+python main_Mix.py
 ```
 
 ## Step 4: record classification result
+
+The quantitative results and qualitative results will be recorded in the '/results' folder.
 
 ## Citation
 If you find this work interesting in your research, please kindly cite:
